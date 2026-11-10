@@ -7,7 +7,7 @@ on:
 
 jobs:
   restart-sg-apps:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     name: Restart SG Apps
     if: always()  
     continue-on-error: true
